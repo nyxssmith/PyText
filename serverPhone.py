@@ -7,7 +7,7 @@ def get_ip_address():
 	return s.getsockname()[0]
 
 myIpAddress = get_ip_address()
-
+print(myIpAddress)
 
 UDP_IP = str(get_ip_address())
 RUDP_PORT = 2003
@@ -24,5 +24,6 @@ while True:
 	MESSAGE = str("echoing"+str(RECIEVED))
 	time.sleep(2)#wait 10 seconds to respond
 	print ("[server] echoing:", RECIEVED,"to",str(addr[0]))
-	Ssock.sendto(bytes(MESSAGE, "utf-8"), (str(addr[0]), SUDP_PORT))
+	#Ssock.sendto(bytes(MESSAGE, "utf-8"), (str(addr[0]), SUDP_PORT))
+	Ssock.sendto(bytes(MESSAGE, "utf-8"), (myIpAddress, SUDP_PORT))
 	
