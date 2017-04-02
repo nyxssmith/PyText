@@ -1,9 +1,8 @@
-x
+
 import socket
 import time
 import threading
 
-from queue import Queue
 
 def get_ip_address():
 	s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)

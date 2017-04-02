@@ -28,11 +28,11 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=2
-FILE_NAME_0=0;Python;0;EUTF-8;1;1;0;%2Fhome%2Fnick%2FPython%2FPyText%2Fclient.py;0;4
-FILE_NAME_1=633;Python;0;EUTF-8;1;1;0;%2Fhome%2Fnick%2FPython%2FPyText%2FclientT.py;0;4
-FILE_NAME_2=226;Python;0;EUTF-8;1;1;0;%2Fhome%2Fnick%2FPython%2FPyText%2FserverPhone.py;0;4
-FILE_NAME_3=760;Python;0;EUTF-8;1;1;0;%2Fhome%2Fnick%2FPython%2FPyText%2FserverT.py;0;4
+current_page=3
+FILE_NAME_0=891;Python;0;EUTF-8;1;1;0;%2Fhome%2Fnick%2FPython%2FPyText%2FserverPhone.py;0;4
+FILE_NAME_1=1162;Python;0;EUTF-8;1;1;0;%2Fhome%2Fnick%2FPython%2FPyText%2FclientMain.py;0;4
+FILE_NAME_2=3076;Python;0;EUTF-8;1;1;0;%2Fhome%2Fnick%2FPython%2FPyText%2FgtkT1.py;0;4
+FILE_NAME_3=341;None;0;EUTF-8;1;1;0;%2Fhome%2Fnick%2FDownloads%2FClasses1.txt;0;4
 
 [VTE]
 last_dir=/home/nick
